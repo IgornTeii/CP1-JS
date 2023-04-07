@@ -58,4 +58,21 @@ if (nomeDeUsuarioInformado === nomeDeUsuario && senhaInformada === senha) {
   console.log("Falha de autenticação. Nome de usuário ou senha inválidos.");
 } 
 
+//Exercicio 6
+let notas = [7, 8, 6, 9, 5, 7, 6]; // notas do aluno
+let soma = 0; // variável para armazenar a soma das notas
+
+// loop para somar as notas
+for (let i = 0; i < notas.length; i++) {
+  soma += notas[i];
+}
+
+let media = soma / notas.length; // cálculo da média
+
+if (media >= 6) {
+  console.log(`Parabéns! Sua média foi ${media.toFixed(2)}. Você foi aprovado.`);
+} else {
+  console.log(`Sua média foi ${media.toFixed(2)}. Infelizmente você foi reprovado.`);
+}
+
 
