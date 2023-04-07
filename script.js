@@ -11,7 +11,7 @@ if (numero1 % 2 == 0) {
 } */
 
 //Exercicio 3
-let peso = 65
+/*let peso = 65
 let altura = 175
 let IMC = peso / (altura * altura)
 
@@ -21,4 +21,27 @@ if (IMC <= 18, 5) {
     console.log('você está no peso ideal')
 } else {
     console.log('você está acima do peso')
-}   
+}*/ 
+
+//Exercicio 4
+alert('Olá,tudo bem?')
+    
+let teste = confirm('Posso te fazer algumas perguntas?')
+console.log('Resultado da caixa confirm:', teste)
+
+let idade = 19
+let texto = prompt('Quantos anos você tem?')
+console.log('Vocé é:', idade)
+
+if(idade <= 12){
+    document.write('Uma criança')
+
+}else if(idade <= 18 ){
+    document.write('Um adolescente')
+
+}else if(idade <= 60){
+    document.write('Um adulto')
+
+}else if(idade => 60){
+    document.write('Idoso')
+}
