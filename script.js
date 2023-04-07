@@ -43,6 +43,19 @@ if(idade <= 12){
     document.write('Um adulto')
 
 }else if(idade => 60){
-    document.write('Idoso')
+    document.write('Idoso') 
 } */
+
+//Exercicio 5
+let nomeDeUsuario = "admin"; // nome de usuário cadastrado
+let senha = "1234"; // senha cadastrada
+let nomeDeUsuarioInformado = "admn"; // nome de usuário informado pelo usuário
+let senhaInformada = "1234"; // senha informada pelo usuário
+
+if (nomeDeUsuarioInformado === nomeDeUsuario && senhaInformada === senha) {
+  console.log("Login realizado com sucesso!");
+} else {
+  console.log("Falha de autenticação. Nome de usuário ou senha inválidos.");
+} 
+
 
