@@ -1,5 +1,5 @@
 // Exercício 1
-let OlaGente = undefined
+/*let OlaGente = undefined
 console.log(OlaGente) //saida
 
 // Exercício 2
@@ -47,7 +47,7 @@ if(idade <= 12){
 } */
 
 //Exercicio 5
-let nomeDeUsuario = "admin"; // nome de usuário cadastrado
+/*let nomeDeUsuario = "admin"; // nome de usuário cadastrado
 let senha = "1234"; // senha cadastrada
 let nomeDeUsuarioInformado = "admn"; // nome de usuário informado pelo usuário
 let senhaInformada = "1234"; // senha informada pelo usuário
@@ -56,10 +56,10 @@ if (nomeDeUsuarioInformado === nomeDeUsuario && senhaInformada === senha) {
   console.log("Login realizado com sucesso!");
 } else {
   console.log("Falha de autenticação. Nome de usuário ou senha inválidos.");
-} 
+} */
 
 //Exercicio 6
-let notas = [7, 8, 6, 9, 5, 7, 6]; // notas do aluno
+/*let notas = [7, 8, 6, 9, 5, 7, 6]; // notas do aluno
 let soma = 0; // variável para armazenar a soma das notas
 
 // loop para somar as notas
@@ -73,8 +73,21 @@ if (media >= 6) {
   console.log(`Parabéns! Sua média foi ${media.toFixed(2)}. Você foi aprovado.`);
 } else {
   console.log(`Sua média foi ${media.toFixed(2)}. Infelizmente você foi reprovado.`);
-}
+}*/
+
+//Exercicio 7
+let nome = prompt("Digite seu nome: ")
+let idade = prompt("Digite sua idade: ")
+let curso = prompt("Digite seu curso: ")
+let ano = prompt("Digite seu ano: ")
+console.log(nome)
+console.log(idade)
+console.log(curso)
+console.log(ano)
 
 
-
-
+document.write("<h1>Suas variaveis são: </h1><br>")
+document.write("<h2> Seu nome é " + nome + "<br>")
+document.write("Sua idade é "+ idade + "<br>")
+document.write("Seu curso é " + curso + "<br>")
+document.write("Seu ano de curso é " + ano + "</h2>")
