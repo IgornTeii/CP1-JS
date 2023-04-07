@@ -24,7 +24,7 @@ if (IMC <= 18, 5) {
 }*/ 
 
 //Exercicio 4
-alert('Olá,tudo bem?')
+/*alert('Olá,tudo bem?')
     
 let teste = confirm('Posso te fazer algumas perguntas?')
 console.log('Resultado da caixa confirm:', teste)
@@ -44,4 +44,5 @@ if(idade <= 12){
 
 }else if(idade => 60){
     document.write('Idoso')
-}
+} */
+
