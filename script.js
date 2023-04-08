@@ -76,7 +76,7 @@ if (media >= 6) {
 }*/
 
 //Exercicio 7
-let nome = prompt("Digite seu nome: ")
+/*let nome = prompt("Digite seu nome: ")
 let idade = prompt("Digite sua idade: ")
 let curso = prompt("Digite seu curso: ")
 let ano = prompt("Digite seu ano: ")
@@ -90,4 +90,4 @@ document.write("<h1>Suas variaveis são: </h1><br>")
 document.write("<h2> Seu nome é " + nome + "<br>")
 document.write("Sua idade é "+ idade + "<br>")
 document.write("Seu curso é " + curso + "<br>")
-document.write("Seu ano de curso é " + ano + "</h2>")
+document.write("Seu ano de curso é " + ano + "</h2>")*/
