@@ -91,3 +91,9 @@ document.write("<h2> Seu nome é " + nome + "<br>")
 document.write("Sua idade é "+ idade + "<br>")
 document.write("Seu curso é " + curso + "<br>")
 document.write("Seu ano de curso é " + ano + "</h2>")*/
+
+//EXERCICIO 8
+let fraseOriginal = "O LUGAR VIRA TECNOLOGIA";
+let novaFrase = fraseOriginal.replace("LUGAR", "MUNDO");
+alert(novaFrase);
+
