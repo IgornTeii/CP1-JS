@@ -92,8 +92,16 @@ document.write("Sua idade é "+ idade + "<br>")
 document.write("Seu curso é " + curso + "<br>")
 document.write("Seu ano de curso é " + ano + "</h2>")*/
 
-//EXERCICIO 8
-let fraseOriginal = "O LUGAR VIRA TECNOLOGIA";
+//Exercicio 8
+/*let fraseOriginal = "O LUGAR VIRA TECNOLOGIA";
 let novaFrase = fraseOriginal.replace("LUGAR", "MUNDO");
-alert(novaFrase);
+alert(novaFrase);*/
+
+//Exercicio 9
+let numeroString = "123.456";
+let numeroFloat = parseFloat(numeroString);
+let numeroFormatado = numeroFloat.toFixed(2);
+console.log(numeroFormatado);
+
+
 
